@@ -5,6 +5,8 @@
 #include "product.h"
 
 class Item {
+    public:
+    double total();
 
 };
 
