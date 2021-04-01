@@ -1,7 +1,7 @@
 #include "invoice.h"
 
 void Invoice::add(Product product, int qty) {
-    Item item;
+    Item item(product, qty);
   items.push_back(item);
 }
 
