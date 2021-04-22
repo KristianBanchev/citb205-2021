@@ -14,13 +14,13 @@ double Invoice::subtotal() {
 }
 
 double Invoice::taxes() {
-    return 0.1*subtotal();
+    return 0.1 * subtotal();
 }
 
-double Invoice::total(){
+double Invoice::total() {
     return subtotal() + taxes();
 }
 
-vector<Item> Invoice::getItems(){
+vector<Item> Invoice::getItems() {
     return items;
 }
